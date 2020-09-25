@@ -1,0 +1,14 @@
+{
+  "name": "cahey",
+  "version": "1.0.3",
+  "description": "In-memory db for caching",
+  "main": "src/cahey.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "d4rckh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
