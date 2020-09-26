@@ -10,7 +10,7 @@ const app = express()
 
 app.get("/", (req, res) => {
     res.json(Session.grabOrRenew("api-response", () => {
-        return undefined
+        return {a: new Date()}
     }))
 })
 
