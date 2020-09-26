@@ -1,14 +1,22 @@
 {
   "name": "cahey",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "In-memory db for caching",
   "main": "src/cahey.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4rckh/cahey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/d4rckh/cahey/issues"
+  },
+  "homepage": "https://github.com/d4rckh/cahey#readme",
   "author": "d4rckh",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "express": "^4.17.1"
   }
 }
