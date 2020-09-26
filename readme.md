@@ -16,7 +16,7 @@ const Cahey = require("cahey")
 const Server = new Cahey.Server()
 ```
 ```js
-// creat a new session which will most likely be set per IP
+// create a new session which will most likely be set per IP
 // first param is the name of it
 // second param is the timeout of cache for every single key-value
 const Session = Server.createSession("my-session", 1000/*ms*/)
@@ -30,7 +30,7 @@ const express = require("express")
 Session.store("api-response")
 ```
 ```js
-// creat a new express app
+// create a new express app
 const app = express()
 ```
 ```js
